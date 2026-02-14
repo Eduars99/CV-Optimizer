@@ -23,10 +23,9 @@ export default function Home() {
         if(!auth.isAuthenticated) navigate('/auth?next=/');
 
     },  [auth.isAuthenticated])
+
   return <><main className="bg-[url('/images/bg-main.svg')] bg-cover">
     <Navbar />
-    
-
     <><section className="main-section">
       <div className="page-heading py-16">
         <h1> Ve tus aplicaciones y Puntajes de CV </h1>
